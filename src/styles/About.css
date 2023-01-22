@@ -1,72 +1,36 @@
 .about {
     background-color: #f8f8f8;
-    margin: auto;
     margin-bottom: 2rem;
-    padding: 8rem 1rem 0 1rem;
-    width: 100%;
+    padding: 6rem 1rem 6rem 1rem;
+    
 }
 
-.about .container {
-    width: 1240px;
+.about h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about .image-col{
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.about .image-col img{
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.about .container img {
-    padding: 0rem;
-    width: 400px;
+    display: block;
+    width: 100%;
     border-radius: 50%;
 }
 
-.about h2 {
-    font-size: 3rem;
-}
-
-.about .col-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
+.about .description-col{
+    margin-top: 2rem;
     text-align: justify;
 }
 
-.about .col-2 p:first-of-type {
-    margin: 2rem 0;
-}
-
-.about .col-2 p:nth-child(4) {
-    font-size: 1.8rem;
-    font-style: italic;
-    font-weight: 600;
-}
-
-.about button {
-    margin-top: 1rem;
-}
-
-@media screen and (max-width:940px) {
-    .about .container {
-        grid-template-columns: 1fr;
-    }
-
-    .about .container {
-        width: 100%;
-    }
-
-    .about .container img {
-        padding: 0rem;
-        width: 90vw;
-    }
-
-    .about .container .col-2 {
-        padding: 0;
-    }
-
-    .about button {
-        margin-bottom: 1rem;
-    }
+.about th{
+    padding: 0.5rem 1rem 0.5rem 0rem;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 
