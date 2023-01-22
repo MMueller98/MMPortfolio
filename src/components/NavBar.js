@@ -22,7 +22,7 @@ const NavBar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='/'>Home</a>
+                        <a href='#top'>Home</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#about'>About</a>

@@ -1,13 +1,15 @@
 import React from 'react'
 import "../styles/Footer.css";
 
+
 function Footer() {
   return (
+    <>
     <div className='footer'>
             <div className='container'>
                 <ul>
                 <li className='nav-item'>
-                        <a href='/'>Home</a>
+                        <a href='#top'>Home</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#about'>About</a>
@@ -21,7 +23,7 @@ function Footer() {
                     <p>Marius Müller, 2023. All rights reserved</p>
                     <ul>
                     <li className='nav-item'>
-                        <a href='/'>Impressum</a>
+                        
                     </li>
                     <li className='nav-item'>
                         <a href='#about'>Privacy</a>
@@ -30,6 +32,8 @@ function Footer() {
                 </div>
             </div>
         </div>
+    </>
+    
   )
 }
 

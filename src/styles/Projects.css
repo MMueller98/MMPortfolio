@@ -1,9 +1,14 @@
 .projects {
-    background-color: #ffffff;
     margin: auto;
     margin-bottom: 2rem;
-    padding: 6rem 1rem 6rem 1rem;
+    padding: 5rem 1rem 6rem 1rem;
     width: 100%;
+}
+
+.projects h1{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .projects .image-col{
@@ -14,4 +19,14 @@
     margin: auto;
     display: block;
     width: 100%;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.links {
+    display: block;
+}
+
+.projects button{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }

@@ -48,11 +48,11 @@ const About = () => {
 
           <h3 className="mt-5">Links:</h3>
           <Row>
+            <div className="links">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marius-mueller-dev/" className="me-3"><button className="button mt-3">Linkedin</button></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/MMueller98"><button className="button mt-3">GitHub</button></a>
+            </div>
 
-            <Col xs={12} md={2} className="me-3">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marius-mueller-dev/"><button className="button mt-3">Linkedin</button></a>
-            </Col>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/MMueller98"><button className="button mt-3">GitHub</button></a>
           </Row>
 
         </Col>
