@@ -1,9 +1,8 @@
 .about {
     background-color: #f8f8f8;
-    margin: auto;
     margin-bottom: 2rem;
     padding: 6rem 1rem 6rem 1rem;
-    width: 100%;
+    
 }
 
 .about h2{
@@ -11,19 +10,19 @@
     text-align: center;
 }
 
-.image-col{
+.about .image-col{
     margin-top: 2rem;
+    padding: 2rem;
 }
 
-.image-col img{
+.about .image-col img{
     margin: auto;
     display: block;
-    padding: 0rem;
-    width: 340px;
+    width: 100%;
     border-radius: 50%;
 }
 
-.description-col{
+.about .description-col{
     margin-top: 2rem;
     text-align: justify;
 }

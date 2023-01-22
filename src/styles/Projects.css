@@ -6,5 +6,12 @@
     width: 100%;
 }
 
-.projects h1 {
+.projects .image-col{
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.projects .image-col img {
+    margin: auto;
+    display: block;
+    width: 100%;
 }

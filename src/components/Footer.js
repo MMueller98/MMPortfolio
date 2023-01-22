@@ -17,7 +17,7 @@ function Footer() {
                     </li>
                 </ul>
                 <div className='bottom'>
-                    <span className='line'></span>
+                    <span className='line-center'></span>
                     <p>Marius Müller, 2023. All rights reserved</p>
                     <ul>
                     <li className='nav-item'>

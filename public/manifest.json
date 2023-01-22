@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MM-Portfolio",
+  "name": "Portfolio Website of Marius Müller",
   "icons": [
     {
       "src": "favicon.ico",
