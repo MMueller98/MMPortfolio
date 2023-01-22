@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #5bb462;
-  --primary-dark: #4f9c55;
-  --secondary-color: #ffea00;
-  --secondary-dark:#e3d002;
+  --primary-color: #41a4c3;
+  --primary-dark: #1897bd;
+  --secondary-color: #41a4c3;
+  --secondary-dark:#41a4c3;
   --overlay: rgba(0,0,0,.7);
 }
 
@@ -37,8 +37,8 @@ a {
 }
 
 .button {
-  padding: 17px 28px;
-  font-size: 1.2rem;
+  padding: 10px 20px;
+  font-size: 1rem;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;

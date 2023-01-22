@@ -1,21 +1,58 @@
-import React from 'react'
+import React from "react"
+import { Col, Row, Table } from "react-bootstrap";
+import about_img from "../assets/Marius_6.png";
 import "../styles/Projects.css";
 
 
 function Projects() {
     return (
-        <div className='demo' id='demo'>
-            <div className='container'>
-                <div className='col-1'>
-                    <p>More Than 100 Financial Planners,</p>
-                    <p>One Philosophy</p>
-                    <p>Every single one of our financial advisors receives rigorous training according to John Doe’s philosophy based on academic research (including that of a Nobel laureate in Economics) and Behavioral Finance.</p>
-                    <button className='button'>Get your free financial analysis</button>
-                </div>
-                <div className='col-2'>
-                    <iframe width='570' height='320' src='https://www.youtube.com/embed/oeqP5JtihMA' title='Youtube video player' frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-                </div>
-            </div>
+        <div className="projects" id="projects">
+            <h1>Projects</h1>
+            <Row breakpoints={['xl']}>
+                <Col xs={12} md={5} className="image-col">
+                    <img src={about_img} alt="Marius" />
+                </Col>
+                <Col xs={12} md={7} className="description-col ps-5 pe-5">
+                    <h2>About me</h2>
+                    <span className='line'></span>
+                    <p>In 2021 I successfully completed my studies in Biomedical Engineering at the Trier University of Applied Sciences. In the course of my studies I discovered a new love for computer science and therefore started a second degree in computer science B. Sc.</p>
+                    <p>I am currently working as a working student at the BBT Group in the field of Applications – Clinical Special Systems.</p>
+                    <h3 className="mt-5">Key-Facts:</h3>
+                    <Table borderless size="sm" style={{ width: "max-content", padding: "10px" }}>
+                        <thead>
+                            <tr>
+                                <th >Name:</th>
+                                <th>Marius Müller</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>Age:</th>
+                                <th>24</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th >Location:</th>
+                                <th>Trier</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th >Email:</th>
+                                <th>marius.mueller98@outlook.de</th>
+                            </tr>
+                        </thead>
+                    </Table>
+
+                    <h3 className="mt-5">Links:</h3>
+                    <Row>
+                        <Col xs={12} md={2}><button className='button mt-3'>Linkedin</button></Col>
+                        <Col xs={12} md={2}><button className='button mt-3'>GitHub</button></Col>
+                    </Row>
+
+                </Col>
+            </Row>
         </div>
     );
 }

@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 
 
 const Hero = () => {
+  
   return (
     <div className="hero">
         <div className="content">
