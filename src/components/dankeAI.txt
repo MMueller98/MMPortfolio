@@ -1,0 +1,58 @@
+import { Card, Row, Col } from 'react-bootstrap';
+
+function CardView() {
+    return (
+        <div>
+            <Card className="card-view">
+                <Row>
+                    <Col xs={12} md={6} className="image-col">
+                        <Card.Img src="image1.jpg" />
+                    </Col>
+                    <Col xs={12} md={6} className="description-col">
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Card Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Col>
+                </Row>
+            </Card>
+            <Card className="card-view">
+                <Row>
+                    <Col xs={12} md={6} className="description-col">
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Card Description
+                            </Card.Text>
+                        </Card.Body>
+                    </Col>
+                    <Col xs={12} md={6} className="image-col">
+                        <Card.Img src="image2.jpg" />
+                    </Col>
+                </Row>
+            </Card>
+        </div>
+    );
+}
+
+==================================================================
+
+.card-view {
+    margin-bottom: 20px;
+}
+
+.image-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-col img {
+    max-width: 100%;
+}
+
+.description-col {
+    padding: 10px;
+}
