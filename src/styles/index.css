@@ -13,6 +13,7 @@
 }
 
 body {
+  position: relative;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -22,6 +23,8 @@ body {
   font-size: 1.2rem;
   line-height: 1.2;
   background-color: #f8f8f8;
+  min-height: 100vh;
+  padding-bottom: 15rem;
 }
 
 code {
@@ -60,7 +63,7 @@ a {
   width: 40px;
   height: 3px;
   margin: auto;
-  margin-bottom: 15px;
+  margin-bottom: 2rem;
   background-color: var(--primary-color);
 }
 
@@ -86,4 +89,17 @@ a {
   background-image: -webkit-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
   background-image: -ms-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
   background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white));
+}
+
+.privacyImpressum {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+.privacyImpressum h1 {
+  margin-bottom: 2rem;
+}
+
+.privacyImpressum h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

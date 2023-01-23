@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
 
 import logo from "../assets/logo_neu.png";
 import "../styles/NavBar.css";
@@ -17,9 +18,9 @@ const NavBar = () => {
                 <Navbar.Collapse id="main-navbar">
                     {/* with href it will always refresh the page -> not good! */}
                     <Nav>
-                        <Nav.Link href="#top">Home</Nav.Link>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link as={HashLink} to="/#top">Home</Nav.Link>
+                        <Nav.Link as={HashLink} to="/#about">About</Nav.Link>
+                        <Nav.Link as={HashLink} to="/#projects">Projects</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

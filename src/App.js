@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -6,17 +6,22 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Impressum from "./components/Impressum";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Privacy from "./components/Privacy";
 
 
 
 function App() {
-  const [showImpressum, setShowImpressum] = useState(false);
 
   return (
     <BrowserRouter>
-      <div>
+     <>
+        {/** HEADER */}
         <NavBar />
+
+        {/** BODY*/}
         <Routes>
+
+          {/** MAIN-PAGE */}
           <Route
             path="/"
             element={
@@ -27,16 +32,21 @@ function App() {
               </>
             }
           />
+
+          {/** IMPRESSUM / PRIVACY */}
           <Route
             path="/impressum"
-            element={
-              <Impressum />
-            }
+            element={<Impressum />}
+          />
+          <Route
+            path="/privacy"
+            element={<Privacy />}
           />
         </Routes>
 
+          {/** FOOTER */}
         <Footer />
-      </div>
+        </>
     </BrowserRouter>
   );
 }

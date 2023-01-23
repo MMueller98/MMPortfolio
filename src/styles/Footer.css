@@ -1,14 +1,21 @@
 .footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    background-color: #000;
-    color: #eee;
+    height: 17rem;
     padding: 2rem 1rem;
+    padding-bottom: 5rem;
+    color: #eee;
+    background-color: #000;
+    margin: 0;
 }
 
+
 .footer .container {
-    max-width: 1240px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    
 }
 
 .footer ul {
@@ -31,12 +38,9 @@
 
 .bottom {
     text-align: center;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.line {
-    margin-bottom: 1rem;
-}
 
 
 
