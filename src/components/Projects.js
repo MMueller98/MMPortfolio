@@ -1,17 +1,18 @@
 import React from "react"
 import {Container} from "react-bootstrap";
-import koesterlich_img from "../assets/proj_koesterlich.png";
-import mmportfolio_img from "../assets/proj_mmportfolio.png"
-import cinema_img from "../assets/proj_cinemaapp.png";
-import merncourse_img from "../assets/proj_merncourse.png";
-import algorithmen_img from "../assets/proj_algorithmen.png"
+import koesterlich_img from "../assets/images/proj_koesterlich.png";
+import mmportfolio_img from "../assets/images/proj_mmportfolio.png"
+import cinema_img from "../assets/images/proj_cinemaapp.png";
+import merncourse_img from "../assets/images/proj_merncourse.png";
+import algorithmen_img from "../assets/images/proj_algorithmen.png"
 import "../styles/Projects.css";
 import ProjectContainer from "./Project_Container";
 
 
 function Projects() {
     return (
-        <Container className="projects" id="projects">
+        <div className="projects" id="projects">
+        <Container >
             <h1>My Projects</h1>
             <span className="line-long"></span>
 
@@ -74,6 +75,7 @@ function Projects() {
                 repoHref={"https://github.com/MMueller98/MMPortfolio"}
             />
         </Container>
+        </div>
     );
 }
 

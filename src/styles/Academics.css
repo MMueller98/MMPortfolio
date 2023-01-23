@@ -1,25 +1,28 @@
-.projects {
+.academics {
     margin: auto;
     padding: 5rem 1rem 6rem 1rem;
     width: 100%;
-    background-color: #ffffff;
 }
 
-.projects h1{
+.academics h1{
     font-size: 4.5rem;
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.projects p {
+.academics h4{
+    font-style: italic;
+}
+
+.academics p {
     text-align: justify;
 }
 
-.projects .image-col{
+.academics .image-col{
     padding: 0rem 2rem 2rem 2rem;
 }
 
-.projects .image-col img {
+.academics .image-col img {
     margin: auto;
     display: block;
     width: 100%;
@@ -30,7 +33,7 @@
     display: block;
 }
 
-.projects button{
+.academics button{
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -44,7 +47,7 @@
         flex-direction: row;
     }
 
-    .projects .image-col{
+    .academics .image-col{
         padding: 0rem 2rem 4rem 2rem;
     }
 }

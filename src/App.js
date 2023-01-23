@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Impressum from "./components/Impressum";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Privacy from "./components/Privacy";
+import Academics from "./components/Academics";
 
 
 
@@ -29,6 +30,7 @@ function App() {
                 <Hero />
                 <About />
                 <Projects />
+                <Academics />
               </>
             }
           />

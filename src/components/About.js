@@ -1,6 +1,6 @@
 import React from "react"
 import { Col, Container, Row} from "react-bootstrap";
-import about_img from "../assets/Marius_Mueller_min.png";
+import about_img from "../assets/images/Marius_Mueller_min.png";
 import "../styles/About.css";
 
 
@@ -25,7 +25,6 @@ const About = () => {
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marius-mueller-dev/" className="me-3"><button className="button mt-3">Linkedin</button></a>
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/MMueller98"><button className="button mt-3">GitHub</button></a>
             </div>
-
           </Row>
 
         </Col>
