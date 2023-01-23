@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from "react";
 import "../styles/Footer.css";
 
 
-function Footer() {
+function Footer({setShowImpressum}) {
   return (
     <>
     <div className='footer'>
@@ -23,10 +23,9 @@ function Footer() {
                     <p>Marius Müller, 2023. All rights reserved</p>
                     <ul>
                     <li className='nav-item'>
-                        
+                        <a href='#about'>Impressum</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about'>Privacy</a>
                     </li>
                 </ul>
                 </div>

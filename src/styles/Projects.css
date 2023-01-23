@@ -11,6 +11,10 @@
     margin-bottom: 2rem;
 }
 
+.projects p {
+    text-align: justify;
+}
+
 .projects .image-col{
     padding: 0rem 2rem 2rem 2rem;
 }
@@ -29,4 +33,14 @@
 .projects button{
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+
+.imgRight {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width:767px) {
+    .imgRight {
+        flex-direction: row;
+    }
 }

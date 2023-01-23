@@ -1,6 +1,6 @@
 import React from "react"
 import { Col, Container, Row, Table } from "react-bootstrap";
-import about_img from "../assets/Marius_6.png";
+import about_img from "../assets/Marius_Mueller_min.png";
 import "../styles/About.css";
 
 
@@ -18,34 +18,7 @@ const About = () => {
           <span className='line-center'></span>
           <p>In 2021 I successfully completed my studies in Biomedical Engineering at the Trier University of Applied Sciences. In the course of my studies I discovered a new love for computer science and therefore started a second degree in computer science B. Sc.</p>
           <p>I am currently working as a working student at the BBT Group in the field of Applications – Clinical Special Systems.</p>
-          <h3 className="mt-5">Key-Facts:</h3>
-          <Table borderless size="sm" style={{ width: "max-content", padding: "10px" }}>
-            <thead>
-              <tr>
-                <th >Name:</th>
-                <th>Marius Müller</th>
-              </tr>
-            </thead>
-            <thead>
-              <tr>
-                <th>Age:</th>
-                <th>24</th>
-              </tr>
-            </thead>
-            <thead>
-              <tr>
-                <th >Location:</th>
-                <th>Trier</th>
-              </tr>
-            </thead>
-            <thead>
-              <tr>
-                <th >Email:</th>
-                <th>marius.mueller98@outlook.de</th>
-              </tr>
-            </thead>
-          </Table>
-
+          
           <h3 className="mt-5">Links:</h3>
           <Row>
             <div className="links">

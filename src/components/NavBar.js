@@ -1,38 +1,29 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 import logo from "../assets/logo_neu.png";
 import "../styles/NavBar.css";
 
 const NavBar = () => {
 
-    // onClick Listener for toggle hamburger menu
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-
     return (
-        <div className='header'>
-            <nav className='navbar'>
-                <a href='/' className='logo'>
-                    <img src={logo} alt='logo' />
-                </a>
-                <div className='hamburger' onClick={handleClick}>
-                    {click ? (<FaTimes size={30} style={{color: "#ffffff"}}/>) : (<FaBars size={30} style={{ color: "#ffffff" }} />)}
-                    
-                </div>
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
-                    <li className='nav-item'>
-                        <a href='#top'>Home</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#about'>About</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#projects'>Projects</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <Navbar className="NavBar" variant="dark" expand="sm" sticky="top">
+            <Container>
+                <Navbar.Brand href="#top">
+                    <img src={logo} style={{height: "60px"}} alt="logo"/>
+                </Navbar.Brand>
+                {/* responsable for responsive design  */}
+                <Navbar.Toggle aria-controls="main-navbar" />
+                <Navbar.Collapse id="main-navbar">
+                    {/* with href it will always refresh the page -> not good! */}
+                    <Nav>
+                        <Nav.Link href="#top">Home</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
 
