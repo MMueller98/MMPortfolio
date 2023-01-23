@@ -18,7 +18,7 @@ function Academics() {
     return (
         <div className="academics" id="studies">
             <Container  >
-                <h1>My Academic Work</h1>
+                <h1>My Studies</h1>
                 <span className="line-long"></span>
 
                 {/** BACHELOR THESIS: FHIR */}
