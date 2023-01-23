@@ -1,5 +1,5 @@
 import React from "react"
-import { Col, Container, Row } from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import koesterlich_img from "../assets/proj_koesterlich.png";
 import mmportfolio_img from "../assets/proj_mmportfolio.png"
 import cinema_img from "../assets/proj_cinemaapp.png";

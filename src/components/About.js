@@ -1,5 +1,5 @@
 import React from "react"
-import { Col, Container, Row, Table } from "react-bootstrap";
+import { Col, Container, Row} from "react-bootstrap";
 import about_img from "../assets/Marius_Mueller_min.png";
 import "../styles/About.css";
 
