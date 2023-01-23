@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <Navbar className="NavBar" variant="dark" expand="sm" sticky="top">
             <Container>
-                <Navbar.Brand href="#top">
+                <Navbar.Brand href="/#top">
                     <img src={logo} style={{height: "60px"}} alt="logo"/>
                 </Navbar.Brand>
                 {/* responsable for responsive design  */}
