@@ -23,7 +23,7 @@ function Projects() {
                 imgLeft={true}
                 heading={"CHECK24 - Full-Stack Development"}
                 p1={"CHECK24 is the leading German comparison platform with 15 million customers, more than 40 products and over 6,000 employees. For years, CHECK24's motor insurance comparison has set the benchmark in Germany in terms of user-friendliness and customer benefits"}
-                p2={"In the first stage of my trainee position, I work as a full-stack developer in the customer area of CHECK24. We are building web-applications and REST-APIs with Spring-Boot and React and deploying them with Jenkins, Git and Gradle."}
+                p2={"In the first stage of my trainee position, I work as a full-stack developer in the customer area of CHECK24. We are building web applications and REST-APIs with Spring Boot and React, deployed with Jenkins, Git and Gradle."}
                 repoHref={"https://www.check24.de/kfz-versicherung/"}
                 repoName={"Zu Check24"}
             />
