@@ -1,15 +1,17 @@
 import React from "react"
-import { Container } from "react-bootstrap";
-import AcademicsContainer from "./Academics_Container";
-import "../styles/Academics.css";
+import { Container } from "react-bootstrap"
+import AcademicsContainer from "./Academics_Container"
+import "../styles/Academics.css"
 
-import fhir_img from "../assets/images/aca_fhir.png";
-import plasma_img from "../assets/images/aca_plasmajet.png";
-import hyperloglog_img from "../assets/images/aca_hyperloglog.png";
+import fhir_img from "../assets/images/aca_fhir.png"
+import plasma_img from "../assets/images/aca_plasmajet.png"
+import hyperloglog_img from "../assets/images/aca_hyperloglog.png"
 import gedcom_img from "../assets/images/aca_gedcom.png"
 
-import bachelorThesis from "../assets/studies/Bachelorarbeit_MariusMueller.pdf";
-import projectPlasma from "../assets/studies/Projektarbeit_MariusMueller.pdf";
+import bachelorThesis from "../assets/studies/Bachelorarbeit_MariusMueller.pdf"
+import projectPlasma from "../assets/studies/Projektarbeit_MariusMueller.pdf"
+import seminarArbeitHll from "../assets/studies/Seminararbeit_HyperLogLog_MariusMueller.pdf"
+import gedcomAusarbeitung from "../assets/studies/Ausarbeitung_GedcomJS_MariusMueller_DavidGruber.pdf"
 
 
 
@@ -36,6 +38,35 @@ function Academics() {
                 />
                 <span className="line-long"></span>
 
+                {/** SEMINARARBEIT: HYPERLOGLOG */}
+                <AcademicsContainer
+                    img={hyperloglog_img}
+                    imgAlt={"Seminarwork Image"}
+                    imgLeft={false}
+                    title={"Solving The Count-Distinc Problem with HyperLogLog"}
+                    subtitle={"An in-depth Analysis of the Cardinality-Estimation-Algorithm HyperLogLog"}
+                    p1={"HyperLogLog is an algorithm for the count-distinct problem, approximating the number of distinct elements in a multiset. Calculating the exact cardinality of the distinct elements of a multiset requires an amount of memory proportional to the cardinality, which is impractical for very large data sets."}
+                    p2={"Probabilistic cardinality estimators, such as the HyperLogLog algorithm, use significantly less memory than this, at the cost of obtaining only an approximation of the cardinality. The HyperLogLog algorithm is able to estimate cardinalities of 10^9 with a typical accuracy (standard error) of 2%, using 1.5 kB of memory."}
+                    isFinished={true}
+                    pdf={seminarArbeitHll}
+                    repoLink={null}
+                />
+                <span className="line-long"></span>
+
+                {/** TEAMPROJEKT: GEDCOM */}
+                <AcademicsContainer
+                    img={gedcom_img}
+                    imgAlt={"Projectwork Image"}
+                    imgLeft={true}
+                    title={"Gedcom.js"}
+                    subtitle={"Development of a JavaScript Library for FamilySearch GEDCOM v7"}
+                    p1={"FamilySearch GEDCOM is a de-facto standard open file format specification to store genealogical data, and import or export it between compatible genealogy software."}
+                    p2={"Gedcom.js is a JavaScript library that assists the user in reading, writing, and syntax checking Gedcom files. With the generic grammar generator, the syntax can be extended to support additional tags, so software developers can adapt the parser to the needs of their systems."}
+                    isFinished={true}
+                    pdf={gedcomAusarbeitung}
+                    repoLink={"https://github.com/DwieDave/gedcom.js"}
+                />
+
                 {/** PROJEKTARBEIT: PLASMAJET */}
                 <AcademicsContainer
                     img={plasma_img}
@@ -50,35 +81,6 @@ function Academics() {
                     repoLink={null}
                 />
                 <span className="line-long"></span>
-
-                {/** SEMINARARBEIT: HYPERLOGLOG */}
-                <AcademicsContainer
-                    img={hyperloglog_img}
-                    imgAlt={"Seminarwork Image"}
-                    imgLeft={true}
-                    title={"Solving The Count-Distinc Problem with HyperLogLog"}
-                    subtitle={"An in-depth Analysis of the Cardinality-Estimation-Algorithm HyperLogLog"}
-                    p1={"HyperLogLog is an algorithm for the count-distinct problem, approximating the number of distinct elements in a multiset. Calculating the exact cardinality of the distinct elements of a multiset requires an amount of memory proportional to the cardinality, which is impractical for very large data sets."}
-                    p2={"Probabilistic cardinality estimators, such as the HyperLogLog algorithm, use significantly less memory than this, at the cost of obtaining only an approximation of the cardinality. The HyperLogLog algorithm is able to estimate cardinalities of 10^9 with a typical accuracy (standard error) of 2%, using 1.5 kB of memory."}
-                    isFinished={false}
-                    pdf={null}
-                    repoLink={null}
-                />
-                <span className="line-long"></span>
-
-                {/** TEAMPROJEKT: GEDCOM */}
-                <AcademicsContainer
-                    img={gedcom_img}
-                    imgAlt={"Projectwork Image"}
-                    imgLeft={false}
-                    title={"Gedcom.js"}
-                    subtitle={"Development of a JavaScript Library for FamilySearch GEDCOM v7"}
-                    p1={"FamilySearch GEDCOM is a de-facto standard open file format specification to store genealogical data, and import or export it between compatible genealogy software."}
-                    p2={"Gedcom.js is a JavaScript library that assists the user in reading, writing, and syntax checking Gedcom files. With the generic grammar generator, the syntax can be extended to support additional tags, so software developers can adapt the parser to the needs of their systems."}
-                    isFinished={false}
-                    pdf={projectPlasma}
-                    repoLink={"https://github.com/DwieDave/gedcom.js"}
-                />
             </Container>
         </div>
     );
