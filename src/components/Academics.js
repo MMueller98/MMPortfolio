@@ -66,6 +66,7 @@ function Academics() {
                     pdf={gedcomAusarbeitung}
                     repoLink={"https://github.com/DwieDave/gedcom.js"}
                 />
+                <span className="line-long"></span>
 
                 {/** PROJEKTARBEIT: PLASMAJET */}
                 <AcademicsContainer
@@ -80,7 +81,7 @@ function Academics() {
                     pdf={projectPlasma}
                     repoLink={null}
                 />
-                <span className="line-long"></span>
+                
             </Container>
         </div>
     );
