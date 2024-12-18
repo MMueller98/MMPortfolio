@@ -9,7 +9,7 @@ function Footer() {
             <div className='footer'>
                 <div className='container'>
                     <span className='line-center'></span>
-                    <p>Marius Müller, 2023. All rights reserved</p>
+                    <p>Marius Müller, 2024. All rights reserved</p>
                     <div className="table">
                         <ul>
                             <li className='nav-item'>

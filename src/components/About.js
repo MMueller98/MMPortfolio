@@ -16,8 +16,8 @@ const About = () => {
         <Col xs={12} md={7} className="description-col ps-5 pe-5">
           <h2>About me</h2>
           <span className='line-center'></span>
-          <p>In 2021 I successfully completed my studies in Biomedical Engineering at the Trier University of Applied Sciences. In the course of my studies I discovered a new love for Software Development and therefore started a second degree in Computer Science B. Sc.</p>
-          <p>After finishing my studies, I moved to Munich to work as a full-time Software Developer at CHECK24 Vergleichsportal. In my position as a Trainee, I have the opportunity to get to know three different departments within 18 months and gain experience as a front- and back-end developer.</p>
+          <p>During my studies in Medical Technology at the University of Applied Sciences Trier, I discovered my passion for software development. To deepen this interest, I decided to pursue a second degree in Computer Science (B.Sc.), which I successfully completed.</p>
+          <p>I currently live in Munich, where I began my professional career as a trainee in software development at CHECK24 Comparison Portal. During the trainee program, I had the opportunity to work in various teams and gain valuable experience in different areas of software development. After successfully completing the program, I was promoted to Software Developer and have since contributed my knowledge and skills to exciting projects.</p>
           
           <h3 className="mt-5">Links:</h3>
           <Row>

@@ -22,8 +22,8 @@ function Projects() {
                 imgAlt={"Check24 Kfz Startseite"}
                 imgLeft={true}
                 heading={"CHECK24 - Full-Stack Development"}
-                p1={"CHECK24 is the leading German comparison platform with 15 million customers, more than 40 products and over 6,000 employees. For years, CHECK24's motor insurance comparison has set the benchmark in Germany in terms of user-friendliness and customer benefits"}
-                p2={"In the first stage of my trainee position, I work as a full-stack developer in the customer area of CHECK24. We are building web applications and REST-APIs with Spring Boot and React, deployed with Jenkins, Git and Gradle."}
+                p1={"CHECK24 is the leading German comparison platform with 15 million customers, more than 40 products and over 6,000 employees."}
+                p2={"During my time as a trainee, I gained experience in various departments and had the opportunity to work with different teams and technologies. The focus was on development with Java (Spring Boot) and, to some extent, JavaScript/TypeScript (React). After successfully completing the trainee program, I was promoted to Professional Software Developer. In this role, I also took on responsibilities in the DevOps area, with a particular focus on Infrastructure as Code, Kubernetes, and CI/CD processes."}
                 repoHref={"https://www.check24.de/kfz-versicherung/"}
                 repoName={"Zu Check24"}
             />

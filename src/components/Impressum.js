@@ -7,11 +7,10 @@ function Impressum() {
 
       <h2>Angaben gemäß § 5 TMG</h2>
       <p>Name: Marius Müller<br></br>
-        Anschrift: Peter-Lambert-Straße 6, 54292 Trier</p>
+        Anschrift: Ludwig-Richter-Straße 40, 80687 München</p>
 
       <h2>Kontaktdaten</h2>
-      <p>E-Mail: marius.mehring@web.de<br></br>
-        Telefon: 0151/50706360</p>
+      <p>E-Mail: marius.mehring@web.de<br></br></p>
 
       <h2>Haftungsausschluss</h2>
       <p>Die auf dieser Website bereitgestellten Informationen werden mit großer Sorgfalt erstellt und gepflegt. Der Anbieter übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen.</p>
